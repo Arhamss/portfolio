@@ -1,0 +1,21 @@
+.typing-animation h1 {
+    display: inline;
+    color: black !important;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 3px; /* Adjust width as needed */
+    height: 1.1em; /* To match the font size of the adjacent text */
+    background-color: currentColor; /* To inherit the color of the text */
+    vertical-align: middle;
+    margin-left: 2px;
+    animation: blink 1s steps(5, start) infinite;
+  }
+  
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  

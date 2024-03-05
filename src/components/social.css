@@ -1,0 +1,30 @@
+/* Default styles for mobile view */
+.social-media-links {
+  display: none; /* Hide the container in mobile view */
+}
+
+/* Desktop view styles */
+@media (min-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .social-media-links {
+    display: flex;
+    justify-content: space-between; /* or 'center' depending on exact need */
+    align-items: center;
+    gap: 20px;
+    padding-top: 70px;
+    width: 90%; /* Adjust the width to shift the content */
+    margin: 0 auto; /* Center the container with auto margins */
+    padding-left: 0; /* Remove the padding for desktop view */
+  }
+
+  .social-logo {
+    width: 40px; /* Size for desktop */
+    height: auto;
+  }
+
+  .social-link:hover {
+    filter: drop-shadow(
+      0 0 10px rgba(0, 0, 0, 0.5)
+    ); /* Drop shadow effect on hover for desktop */
+  }
+}
