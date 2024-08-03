@@ -55,22 +55,11 @@ const ExperienceCard = ({ experience }) => (
 
 const Experience = () => {
   function downloadFile() {
-    // Create a new anchor element
     const element = document.createElement("a");
-
-    // Set the href to the path of your file
-    element.href = "./assets/personal/syedarham_resume.pdf";
-
-    // Set the download attribute with a filename
+    element.href = process.env.PUBLIC_URL + "/src/assets/personal/syedarham_resume.pdf";
     element.download = "syedarham_resume.pdf";
-
-    // Append the anchor to the body
     document.body.appendChild(element);
-
-    // Trigger the click event on the anchor
     element.click();
-
-    // Remove the anchor from the body
     document.body.removeChild(element);
   }
 
