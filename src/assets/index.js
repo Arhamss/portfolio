@@ -77,6 +77,7 @@ import tecaudex from '././company/tecaudex.png';
 import tgg from '././company/tgg.png';
 import thesolitaire from '././company/thesolitaire.png';
 import v4m from '././company/v4m.png'
+import venturedive from '././company/venturedive.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -97,6 +98,7 @@ import closeCircle from './projects/close-circle.png';
 
 
 export {
+  venturedive,
   closeCircle,
   aurora,
   signsense,

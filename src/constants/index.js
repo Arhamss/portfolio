@@ -1,5 +1,6 @@
 import {
   closeCircle,
+  venturedive,
   aurora,
   signsense,
   caristanimg,
@@ -201,7 +202,7 @@ const experiences = [
     company_name: 'Tecaudex',
     icon: tecaudex,
     iconBg: '#333333',
-    date: 'January 2023 - November 2023',
+    date: 'January 2022 - November 2023',
   },
   {
     title: 'Senior Gaming Content Writer',
@@ -230,6 +231,13 @@ const experiences = [
     icon: thesolitaire,
     iconBg: '#333333',
     date: 'Nov 2023 - Present',
+  },
+  {
+    title: 'Associate Flutter Developer',
+    company_name: 'VentureDive',
+    icon: venturedive,
+    iconBg: '#333333',
+    date: 'May 2024 - Present',
   },
 ];
 
