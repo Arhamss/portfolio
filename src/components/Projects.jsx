@@ -129,7 +129,7 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
-          This portfolio features some of my app development projects, complete
+          This portfolio features some of my development projects, complete
           with brief descriptions, and code repositories. It highlights my
           expertise in areas like Flutter, React Native, RESTful API
           integration, responsive UI/UX design, and project management. The

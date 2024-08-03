@@ -1,6 +1,6 @@
 import {
-  cryptoticker,
-  clima,
+  closeCircle,
+  aurora,
   signsense,
   caristanimg,
   walletwise,
@@ -377,7 +377,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Aurora',
-    description: `A weather application on Flutter that provides real time weather information, including humidity, air quality, and wind speed.`,
+    description: `A fortune-telling chat application powered with AI, utilizing Firebase, RevenueCat, local storage and localization.`,
     tags: [
       {
         name: 'nextjs',
@@ -392,15 +392,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: clima,
-    repo: 'https://github.com/Arhamss/clima/',
-    demo: 'https://github.com/Arhamss/clima/',
+    image: aurora,
+    repo: 'https://github.com/Arhamss',
+    demo: 'https://github.com/Arhamss',
   },
   {
     id: 'project-5',
-    name: 'CryptoTicker',
+    name: 'Close Circle',
     description:
-      'A real time crypto price ticker that provides updated prices to all crypto currencies. You can choose your prefered currency and also refresh the price manually.',
+      'A PWA ROSCA application allowing users to send and receive money. The app is equipped with Stripe payment gateway and utilized a custom Node.js backend.',
     tags: [
       {
         name: 'nextjs',
@@ -415,9 +415,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: cryptoticker,
-    repo: 'https://github.com/Arhamss/bitcoin-ticker/',
-    demo: 'https://github.com/Arhamss/bitcoin-ticker/',
+    image: closeCircle,
+    repo: 'https://github.com/Arhamss/',
+    demo: 'https://github.com/Arhamss/',
   },
 ];
 

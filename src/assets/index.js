@@ -92,13 +92,13 @@ import lol from './projects/lol.png';
 import walletwise from './projects/walletwise.png';
 import caristanimg from './projects/caristanimg.png';
 import signsense from './projects/signsense.png';
-import clima from './projects/clima.png';
-import cryptoticker from './projects/cryptoticker.png';
+import aurora from './projects/aurora.png';
+import closeCircle from './projects/close-circle.png';
 
 
 export {
-  cryptoticker,
-  clima,
+  closeCircle,
+  aurora,
   signsense,
   caristanimg,
   walletwise,
