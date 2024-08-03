@@ -56,7 +56,7 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   function downloadFile() {
     const element = document.createElement("a");
-    element.href = process.env.PUBLIC_URL + "/src/assets/personal/syedarham_resume.pdf";
+    element.href = "/syedarham_resume.pdf";
     element.download = "syedarham_resume.pdf";
     document.body.appendChild(element);
     element.click();
