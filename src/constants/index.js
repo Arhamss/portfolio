@@ -326,8 +326,8 @@ const projects = [
       },
     ],
     image: caristanimg,
-    repo: 'https://github.com/Arhamss/caristanpk-mobile',
-    demo: 'https://github.com/Arhamss/caristanpk-mobile',
+    repo: 'https://github.com/Arhamss/',
+    demo: 'https://github.com/Arhamss/',
   },
   {
     id: 'project-2',
@@ -376,7 +376,7 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Clima',
+    name: 'Aurora',
     description: `A weather application on Flutter that provides real time weather information, including humidity, air quality, and wind speed.`,
     tags: [
       {
